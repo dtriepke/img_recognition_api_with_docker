@@ -1,0 +1,4 @@
+flask
+flasgger
+Keras==2.4.3
+Pillow
