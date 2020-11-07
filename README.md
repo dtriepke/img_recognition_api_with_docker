@@ -1,4 +1,4 @@
-# MNIST Image Recocnition API with Docker
+# MNIST Image Recognition API with Docker
 Production grade version of a image recognition application. The MNIST data is one of the most common toy data sets for image classification. Here a CNN was trained to classify handwritten digits with Keras.
 
 
