@@ -11,10 +11,12 @@ The api based on `flask`.
 ## Docker
 For launching the application  with docker use the following commands:
 
- `cd api`   
- `docker build --tag img_predict .`  
- `docker run -p 0.0.0.0:5000:5000/tcp --name img_predict img_predict`  
-
+```bash
+$ docker pull continuumio/anaconda3     
+$ cd api   
+$ docker build --tag img_predict . 
+$ docker run -p 0.0.0.0:5000:5000/tcp --name img_predict img_predict 
+```
 *The last command starts a new docker container*
 
 
