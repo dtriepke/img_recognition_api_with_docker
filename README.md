@@ -3,7 +3,7 @@ Production grade version of a image recognition application. The MNIST data is o
 
 
 ## API
-The API serves with two endpoints:
+The API serves with the endpoints:
  1. localhost:5000/predict_digit [POST] [Key = `image`]
 
 The api based on `flask`. 
