@@ -12,7 +12,7 @@ The api based on `flask`.
 For launching the application  with docker use the following commands:
 
 ```bash
-$ docker pull continuumio/anaconda3     
+$ docker pull tensorflow/tensorflow     
 $ cd api   
 $ docker build --tag img_predict . 
 $ docker run -p 0.0.0.0:5000:5000/tcp --name img_predict img_predict 
